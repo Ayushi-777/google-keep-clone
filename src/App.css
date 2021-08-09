@@ -1,0 +1,65 @@
+.header{
+  background-color:rgb(247, 247, 3);
+  display: flex;
+}
+.header h1{
+  color:rgb(0, 0, 0);
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(10, 10, 9);
+  color: white;
+  text-align: center;
+}
+.main_note{
+ margin-top: 2%;
+ box-shadow: 5px 10px #e7e4e4;
+ border: 1px solid;
+  border-width: medium;
+  width: 30%;
+  height: 30vh;
+  margin-left: 35%;
+  border-radius: 10px;
+}
+.main_note Button{
+  background-color:#eebd23;
+  border-radius:50%;
+  height: 7vh;
+  width: 5%;
+  margin-top:10%;
+  margin-left: 90%;
+  position: relative;
+}
+
+
+.plus_sign{
+ color:white;
+ position: fixed;
+}
+
+.main_note input { 
+ border:none;
+  text:solid;
+}
+
+.note{
+  margin-top: 2%;
+
+  border: 1px solid;
+   border-width: medium;
+   width: 20%;
+   height: 25vh;
+  margin-left: 4%;
+   border-radius: 10px;
+  
+ }
+ .deleteIcon{
+   background-color:#f81212;
+  border-radius:50%;
+ margin-left: 80%;
+ 
+ }
